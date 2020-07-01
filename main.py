@@ -1,5 +1,5 @@
 from datetime import timedelta, date
-
+# do not use on a account you dont own
 def daterange(date1, date2):
     for n in range(int ((date2 - date1).days)+1):
         yield date1 + timedelta(n)
